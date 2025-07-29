@@ -46,8 +46,32 @@ body {
 
 /* Player */
 .player {
+    display: flex;
     position: relative;
     z-index: 1000;
     height: 90px;
     background-color: hsl(0, 0%, 16%);
+}
+
+.now-playing {
+    width: 20%;
+    flex-shrink: 0;
+    /* DEBUG */
+    height: 100%;
+    background-color: lightcoral;
+}
+
+.control-panel {
+    width: 60%;
+    /* DEBUG */
+    height: 100%;
+    background-color: lightpink;
+}
+
+.user-action {
+    width: 20%;
+    flex-shrink: 0;
+    /* DEBUG */
+    height: 100%;
+    background-color: lightsteelblue;
 }
