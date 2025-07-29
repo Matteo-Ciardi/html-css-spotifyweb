@@ -7,6 +7,7 @@
 /* Generics */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 100%);
 }
 
 span {
@@ -27,9 +28,8 @@ span {
     padding: 30px 20px 10px;
     flex-shrink: 0;
     width: 230px;
-    /* DEBUG */
-    height: 100%;
-    background-color: lightgray;
+    background-color: hsl(0, 0%, 0%);
+    height: calc(100vh - 90px);
 }
 
 #logo {
@@ -41,17 +41,30 @@ span {
     width: 100%;
     /* DEBUG */
     height: 100%;
-    background-color: lightgreen;
+    background-color: hsl(219, 26%, 11%);
 }
 
 /* Call to action */
 .cta {
-    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    /* position: fixed; */
     top: 0;
     height: 90px;
     width: 100%;
-    /* DEBUG */
-    background-color: lightyellow;
+    background-color: black;
+    /* opacity: 0.5; */
+}
+
+#cta-btn {
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 0.8rem;
+    text-decoration: none;
 }
 
 /* Player */
@@ -69,9 +82,6 @@ span {
     display: flex;
     align-items: center;
     width: 20%;
-    /* DEBUG */
-    /* height: 100%; */
-    /* background-color: lightcoral; */
 }
 
 .album-cover {
