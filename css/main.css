@@ -76,9 +76,30 @@ a {
 }
 
 /* Contenuto principale */
+.container {
+    padding: 30px;
+}
+
 .navbar-ul {
     display: flex;
     justify-content: center;
+}
+
+.rp-row {
+    display: flex;
+    gap: calc(100px / 6);
+}
+
+.rp-col {
+    width: 100%;
+}
+
+.rp-img {
+    width: 100%;
+}
+
+.rp-info {
+    text-align: center;
 }
 
 /* Player */
