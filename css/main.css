@@ -8,3 +8,46 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Contenuto pagina */
+.main-content {
+    display: flex;
+    height: calc(100vh - 90px);
+    /* DEBUG */
+    background-color: lightblue;
+}
+
+/* Sezione navigazione sinistra */
+.left-navbar {
+    flex-shrink: 0;
+    width: 230px;
+    /* DEBUG */
+    height: 100%;
+    background-color: lightgray;
+}
+
+/* Sezione finestra principale */
+.main-window {
+    width: 100%;
+    /* DEBUG */
+    height: 100%;
+    background-color: lightgreen;
+}
+
+/* Call to action */
+.cta {
+    position: fixed;
+    top: 0;
+    height: 90px;
+    width: 100%;
+    /* DEBUG */
+    background-color: lightyellow;
+}
+
+/* Player */
+.player {
+    position: relative;
+    z-index: 1000;
+    height: 90px;
+    background-color: hsl(0, 0%, 16%);
+}
