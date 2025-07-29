@@ -93,7 +93,7 @@ a {
 }
 
 .mc-col {
-    width: 255px;
+    width: calc(100% / 6);
 }
 
 .mc-img {
@@ -102,6 +102,10 @@ a {
 
 .mc-info {
     text-align: center;
+}
+
+.mc-round {
+    border-radius: 50%;
 }
 
 /* Player */
