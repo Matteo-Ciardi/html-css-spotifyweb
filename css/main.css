@@ -55,24 +55,49 @@ span {
     z-index: 1000;
     height: 90px;
     background-color: hsl(0, 0%, 16%);
-    padding: 10px 10px;
+    padding: 20px 15px;
 }
 
 /* In riproduzione */
 .now-playing {
     display: flex;
+    align-items: center;
     width: 20%;
     /* DEBUG */
-    height: 100%;
-    background-color: lightcoral;
+    /* height: 100%; */
+    /* background-color: lightcoral; */
 }
 
 .album-cover {
     height: 100%;
+    margin-right: 5px;
 }
 
 .album-cover-img {
     height: 100%;
+}
+
+.title-author {
+    margin-right: 35px;
+}
+
+#title {
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 100%);
+}
+
+#author {
+    font-size: 0.6rem;
+    color: hsl(0, 0%, 47%);
+}
+
+.save-song a {
+    color: hsl(0, 0%, 47%);
+    text-decoration: none;
+}
+
+.folder {
+    margin-left: 10px;
 }
 
 /* Pannello di controllo */
