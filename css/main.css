@@ -23,11 +23,17 @@ span {
 
 /* Sezione navigazione sinistra */
 .left-navbar {
+    overflow: auto;
+    padding: 30px 20px 10px;
     flex-shrink: 0;
     width: 230px;
     /* DEBUG */
     height: 100%;
     background-color: lightgray;
+}
+
+#logo {
+    margin-bottom: 20px;
 }
 
 /* Sezione finestra principale */
