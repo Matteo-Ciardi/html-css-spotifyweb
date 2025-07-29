@@ -86,39 +86,21 @@ a {
     justify-content: center;
 }
 
-/* Ascoltati di recente */
-.rp-row {
+/* Contenuto principale */
+.mc-row {
     display: flex;
     gap: calc(100px / 6);
 }
 
-.rp-col {
+.mc-col {
     width: 255px;
 }
 
-.rp-img {
+.mc-img {
     width: 100%;
 }
 
-.rp-info {
-    text-align: center;
-}
-
-/* Consigliati */
-.fy-row {
-    display: flex;
-    gap: calc(100px / 6);
-}
-
-.fy-col {
-    width: 255px;
-}
-
-.fy-img {
-    width: 100%;
-}
-
-.fy-info {
+.mc-info {
     text-align: center;
 }
 
