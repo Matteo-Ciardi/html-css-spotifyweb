@@ -9,6 +9,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+span {
+    display: block;
+}
+
 /* Contenuto pagina */
 .main-content {
     display: flex;
@@ -48,19 +52,30 @@ body {
 .player {
     display: flex;
     position: relative;
-    gap: calc(170px / 3);
     z-index: 1000;
     height: 90px;
     background-color: hsl(0, 0%, 16%);
+    padding: 10px 10px;
 }
 
+/* In riproduzione */
 .now-playing {
+    display: flex;
     width: 20%;
     /* DEBUG */
     height: 100%;
     background-color: lightcoral;
 }
 
+.album-cover {
+    height: 100%;
+}
+
+.album-cover-img {
+    height: 100%;
+}
+
+/* Pannello di controllo */
 .control-panel {
     width: 60%;
     /* DEBUG */
