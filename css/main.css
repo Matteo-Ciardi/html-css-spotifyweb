@@ -46,6 +46,7 @@ a {
 
 /* Sezione finestra principale */
 .main-window {
+    overflow: auto;
     width: 100%;
     /* DEBUG */
     height: 100%;
@@ -85,13 +86,14 @@ a {
     justify-content: center;
 }
 
+/* Ascoltati di recente */
 .rp-row {
     display: flex;
     gap: calc(100px / 6);
 }
 
 .rp-col {
-    width: 100%;
+    width: 255px;
 }
 
 .rp-img {
@@ -102,12 +104,32 @@ a {
     text-align: center;
 }
 
+/* Consigliati */
+.fy-row {
+    display: flex;
+    gap: calc(100px / 6);
+}
+
+.fy-col {
+    width: 255px;
+}
+
+.fy-img {
+    width: 100%;
+}
+
+.fy-info {
+    text-align: center;
+}
+
 /* Player */
 .player {
     display: flex;
-    position: relative;
+    position: fixed;
+    bottom: 0;
     z-index: 1000;
     height: 90px;
+    width: 100%;
     background-color: hsl(0, 0%, 16%);
     padding: 20px 15px;
 }
