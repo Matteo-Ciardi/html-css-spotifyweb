@@ -1,3 +1,15 @@
 @media screen and (max-width: 640px) {
-    
+
+    /* Ascoltati di recente */
+    .mc-col {
+        width: calc(90% / 2);
+    }
+
+    /* Call to action */
+    #cta-btn {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+
+
 }
