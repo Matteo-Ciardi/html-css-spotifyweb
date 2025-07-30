@@ -34,4 +34,15 @@
         width: 20px;
         margin-left: 5px;
     }
+
+    /* Call to action */
+    .cta {
+        left: 50px;
+        width: calc(100% - 50px);
+    }
+
+    /* Ascoltati di recente */
+    .mc-col {
+        width: calc(95% / 2);
+    }
 }
