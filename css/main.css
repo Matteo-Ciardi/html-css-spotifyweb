@@ -38,7 +38,6 @@ h2 {
 
 /* Navbar sinistra */
 .left-navbar {
-    /* position: relative; */
     overflow: auto;
     padding: 20px 20px 10px;
     flex-shrink: 0;
@@ -46,6 +45,11 @@ h2 {
     background-color: hsl(0, 0%, 0%);
     height: calc(100vh - 90px);
     font-size: 0.7rem;
+}
+
+.list-scroll {
+    overflow: auto;
+    max-height: 200px;
 }
 
 .left-navbar a {
@@ -151,11 +155,12 @@ h2 {
 .navbar-ul {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .navbar-ul a {
     color: hsl(217, 3%, 45%);
-    margin: 0 20px;
+    /* margin: 0 20px; */
     font-size: 0.8rem;
     font-weight: 700;
 }
@@ -164,12 +169,17 @@ h2 {
 .mc-row {
     margin-top: 30px;
     display: flex;
-    gap: calc(100px / 6);
+    justify-content: space-between;
 }
 
 .mc-col {
-    width: calc(100% / 6);
+    width: calc(90% / 6);
 }
+
+.fl-start {
+    justify-content: flex-start;
+    gap: 35px;
+} 
 
 .mc-img {
     width: 100%;
@@ -288,8 +298,28 @@ h2 {
 
 /* Azioni utente */
 .user-action {
+    display: flex;
+    align-items: center;
     width: 20%;
     /* DEBUG */
     height: 100%;
     background-color: lightsteelblue;
+}
+
+.user-action i {
+    margin: 0 5px;
+}
+
+.vol-bar-under {
+    position: relative;
+    width: 40%;
+    margin: 17px auto;
+    border-bottom: 3px solid hsl(0, 0%, 35%);
+}
+
+.vol-bar-top {
+    position: absolute;
+    left: 0;
+    width: 30%;
+    border-bottom: 3px solid hsl(0, 0%, 76%);
 }
