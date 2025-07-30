@@ -1,5 +1,12 @@
 @media screen and (max-width: 878px) {
 
+    /* Navbar principale */
+    .navbar-ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
     .mc-row {
         display: flex;
         flex-wrap: wrap;
