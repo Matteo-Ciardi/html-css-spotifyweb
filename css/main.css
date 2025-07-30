@@ -40,6 +40,7 @@ a {
     width: 230px;
     background-color: hsl(0, 0%, 0%);
     height: calc(100vh - 90px);
+    font-size: 0.7rem;
 }
 
 .left-navbar a {
@@ -58,7 +59,6 @@ a {
 .ln-list {
     line-height: 40px;
     margin-bottom: 20px;
-    font-size: 0.9rem;
 }
 
 .ln-icon {
@@ -148,6 +148,13 @@ a {
     justify-content: center;
 }
 
+.navbar-ul a {
+    color: hsl(217, 3%, 45%);
+    margin: 0 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
 /* Contenuto principale */
 .mc-row {
     display: flex;
@@ -200,15 +207,15 @@ a {
 
 .title-author {
     margin-right: 20px;
+    font-size: 0.7rem;
 }
 
 #title {
-    font-size: 0.8rem;
     color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
 }
 
 #author {
-    font-size: 0.6rem;
     color: hsl(0, 0%, 47%);
 }
 

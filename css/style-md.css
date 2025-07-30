@@ -9,4 +9,9 @@
     .mc-col {
         width: calc(100% / 4);
     }
-}
+
+    /* In riproduzione */
+    #author {
+        color: hsl(0, 0%, 47%);
+        font-size: 0.4rem;
+    }
