@@ -167,19 +167,14 @@ h2 {
 
 /* Contenuto principale */
 .mc-row {
-    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
 }
 
 .mc-col {
     width: calc(90% / 6);
 }
-
-.fl-start {
-    justify-content: flex-start;
-    gap: 35px;
-} 
 
 .mc-img {
     width: 100%;
