@@ -14,7 +14,8 @@ span {
     display: block;
 }
 
-ul, ol {
+ul,
+ol {
     list-style-type: none;
 }
 
@@ -30,22 +31,68 @@ a {
     background-color: lightblue;
 }
 
-/* Sezione navigazione sinistra */
+/* Navbar sinistra */
 .left-navbar {
     overflow: auto;
-    padding: 30px 20px 10px;
+    padding: 20px 20px 10px;
     flex-shrink: 0;
     width: 230px;
     background-color: hsl(0, 0%, 0%);
     height: calc(100vh - 90px);
 }
 
-#logo {
-    margin-bottom: 20px;
+.left-navbar a {
+    color: hsl(0, 0%, 100%);
 }
 
-.list-scroll {
-    /* overflow: auto; */
+#logo {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.ln-list {
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.ln-icon {
+    width: 35px;
+    vertical-align: middle;
+}
+
+.left-navbar span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fa-plus-bg {
+    background-color: hsl(0, 0%, 64%);
+    padding: 10px;
+    color: hsl(0, 0%, 0%);
+    margin: 10px 10px 10px 0;
+}
+
+.dl-profile {
+    margin-top: 100px;
+}
+
+.dl-icon {
+    width: 20px;
+}
+
+.download-app {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+}
+
+.pr-img {
+    background-color: hsl(0, 0%, 64%);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
 }
 
 /* Sezione finestra principale */
@@ -143,7 +190,7 @@ a {
 }
 
 .title-author {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #title {

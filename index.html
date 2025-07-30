@@ -27,51 +27,79 @@
         <!-- Contenuto pagina-->
         <div class="main-content">
 
-            <!-- Sezione navigazione sinistra -->
+            <!-- Navbar sinistra -->
             <div class="left-navbar">
 
                 <div id="logo">
                     <img src="img/logo.svg" alt="Logo Spotify">
                 </div>
 
-                <ul>
+                <ul class="ln-list">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#">
+                            <img src="img/home.svg" alt="" class="ln-icon">
+                            <span>Home</span></a>
                     </li>
                     <li>
-                        <a href="#">Cerca</a>
+                        <a href="#">
+                            <img src="img/search.svg" alt="" class="ln-icon">
+                            <span>Cerca</span></a>
                     </li>
                     <li>
-                        <a href="#">La tua libreria</a>
+                        <a href="#">
+                            <img src="img/libreria.svg" alt="" class="ln-icon">
+                            <span>La tua libreria</span></a>
                     </li>
                 </ul>
 
-                <span>PLAYLIST</span>
-                <div class="new-playlist">
-                    <span><i class="fa-sharp fa-solid fa-plus"></i>
-                        Crea Playlist</span>
-                </div>
+                <span><strong>PLAYLIST</strong></span>
+                <a href="#">
+                    <div class="new-playlist">
+                        <span><i class="fa-sharp fa-solid fa-plus fa-plus-bg"></i>
+                            Crea Playlist</span>
+                    </div>
+                </a>
+                
                 <div class="list-scroll">
-                    <ul>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
+                    <ul class="ln-list">
+                        <a href="#">
+                            <li>Nome Playlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Nome Playlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Nome Playlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Nome Playlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Nome Playlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Nome Playlist</li>
+                        </a>
+                        <a href="#">
+                            <li>Nome Playlist</li>
+                        </a>
                     </ul>
                 </div>
 
-                <div class="download-app">
-                    <span>Installa app</span>
-                </div>
+                <div class="dl-profile">
+                    <a href="#">
+                        <div class="download-app">
+                            <img src="img/download.svg" alt="" class="ln-icon dl-icon">
+                            <span>Installa app</span>
+                        </div>
+                    </a>
 
-                <div id="profile">
-                    <div id="profile-img">
-
-                    </div>
-                    <span>John Doe</span>
+                    <a href="#">
+                        <div id="profile">
+                            <img src="img/profile.svg" alt="" class="ln-icon pr-img">
+                            <span><strong>John Doe</strong></span>
+                        </div>
+                    </a>
                 </div>
             </div>
 
