@@ -89,10 +89,7 @@ h2 {
 }
 
 .dl-profile {
-    /* position: absolute; */
-    /* relative dato a .left-navbar */
-    /* bottom: 10px; */
-    /* z-index: 900; */
+    margin-top: 230px;
 }
 
 .dl-icon {

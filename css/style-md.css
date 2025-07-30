@@ -1,20 +1,12 @@
 @media screen and (max-width: 878px) {
 
     /* Navbar principale */
-    .navbar-ul {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 
+
+
+    /*  Prima riga */
     .mc-row {
-        display: flex;
         flex-wrap: wrap;
-        gap: calc(100px / 4);
-    }
-
-    .mc-col {
-        width: calc(100% / 4);
     }
 
     /* In riproduzione */
@@ -22,3 +14,4 @@
         color: hsl(0, 0%, 47%);
         font-size: 0.4rem;
     }
+}
