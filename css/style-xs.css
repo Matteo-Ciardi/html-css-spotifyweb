@@ -2,11 +2,11 @@
 
     .left-navbar {
         overflow: unset;
-        padding: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50px;
+        padding: 10px;
     }
 
     #logo {
@@ -26,7 +26,7 @@
         display: none;
     }
 
-    .list-scroll ul {
+    .list-scroll {
         display: none;
     }
 
