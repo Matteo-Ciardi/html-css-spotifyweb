@@ -36,8 +36,6 @@ h2 {
 .main-content {
     display: flex;
     height: calc(100vh - 90px);
-    /* DEBUG */
-    background-color: lightblue;
 }
 
 /* Navbar sinistra */
@@ -86,7 +84,6 @@ h2 {
 .ln-icon {
     width: 35px;
     vertical-align: middle;
-    margin-bottom: 5px;
 }
 
 .left-navbar span {
@@ -106,7 +103,8 @@ h2 {
 }
 
 .dl-icon {
-    width: 20px;
+    height: 30px;
+    vertical-align: middle;
 }
 
 .download-app {
@@ -175,6 +173,7 @@ h2 {
     display: block;
     width: 50px;
     margin-left: 28px;
+    margin-top: 2px;
 }
 
 .navbar-ul a {
@@ -195,7 +194,7 @@ h2 {
 }
 
 .mc-col {
-    width: calc(90% / 6);
+    width: calc(95% / 6);
 }
 
 .mc-img {
