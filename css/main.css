@@ -169,6 +169,14 @@ h2 {
     font-size: 0.8rem;
 }
 
+.bottom-bar::after {
+    content: "";
+    border: 2px solid green;
+    display: block;
+    width: 50px;
+    margin-left: 28px;
+}
+
 .navbar-ul a {
     font-weight: 700;
     color: hsl(217, 3%, 45%);
