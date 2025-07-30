@@ -1,17 +1,4 @@
 @media screen and (max-width: 878px) {
 
-    /* Navbar principale */
-
-
-
-    /*  Prima riga */
-    .mc-row {
-        flex-wrap: wrap;
-    }
-
-    /* In riproduzione */
-    #author {
-        color: hsl(0, 0%, 47%);
-        font-size: 0.4rem;
-    }
+    
 }
