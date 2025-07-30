@@ -1,4 +1,7 @@
 @media screen and (max-width: 878px) {
 
-    
+    .navbar-ul {
+        flex-wrap: wrap;
+        font-size: 0.7rem;
+    }
 }
