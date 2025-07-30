@@ -1,4 +1,12 @@
 @media screen and (max-width: 878px) {
 
-    
+    .mc-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: calc(100px / 4);
+    }
+
+    .mc-col {
+        width: calc(100% / 4);
+    }
 }

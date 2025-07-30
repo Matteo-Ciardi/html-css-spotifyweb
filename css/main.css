@@ -6,7 +6,7 @@
 
 /* Generics */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: hsl(0, 0%, 100%);
 }
 
@@ -44,6 +44,10 @@ a {
     margin-bottom: 20px;
 }
 
+.list-scroll {
+    /* overflow: auto; */
+}
+
 /* Sezione finestra principale */
 .main-window {
     overflow: auto;
@@ -59,12 +63,12 @@ a {
     align-items: center;
     justify-content: flex-end;
     padding: 20px;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
+    left: 230px;
     height: 90px;
-    width: 100%;
-    background-color: black;
-    /* opacity: 0.5; */
+    width: calc(100% - 230px);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 #cta-btn {
@@ -76,11 +80,13 @@ a {
     text-decoration: none;
 }
 
-/* Contenuto principale */
+/* Container */
 .container {
     padding: 30px;
+    margin-top: 90px;
 }
 
+/* Navbar principale */
 .navbar-ul {
     display: flex;
     justify-content: center;
