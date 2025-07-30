@@ -251,12 +251,42 @@ h2 {
 
 /* Pannello di controllo */
 .control-panel {
+    font-size: 1.2rem;
     width: 60%;
     /* DEBUG */
-    height: 100%;
-    background-color: lightpink;
+    /* height: 100%; */
+    /* background-color: lightpink; */
 }
 
+.cp-icon {
+    text-align: center;
+}
+
+.control-panel i {
+    margin: 0 10px;
+}
+
+.fa-play-border {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.prog-bar-under {
+    position: relative;
+    width: 50%;
+    margin: 17px auto;
+    border-bottom: 3px solid hsl(0, 0%, 35%);
+}
+
+.prog-bar-top {
+    position: absolute;
+    left: 0;
+    width: 20%;
+    border-bottom: 3px solid hsl(0, 0%, 76%);
+}
+
+/* Azioni utente */
 .user-action {
     width: 20%;
     /* DEBUG */
