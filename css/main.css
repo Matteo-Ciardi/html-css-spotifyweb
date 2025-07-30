@@ -74,6 +74,14 @@ h2 {
     margin-bottom: 20px;
 }
 
+.ln-border::before {
+    content: "";
+    border: 2px solid green;
+    height: 40px;
+    position: absolute;
+    left: 0;
+}
+
 .ln-icon {
     width: 35px;
     vertical-align: middle;
