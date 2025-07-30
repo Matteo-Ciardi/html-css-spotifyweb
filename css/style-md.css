@@ -1,7 +1,18 @@
 @media screen and (max-width: 878px) {
 
+    /* Generics */
+    h2 {
+        font-size: 0.95rem;
+    }
+
+    /* Navbar principale */
     .navbar-ul {
         flex-wrap: wrap;
+        font-size: 0.7rem;
+    }
+
+    /* Ascoltati di recente */
+    .subtitle {
         font-size: 0.7rem;
     }
 
@@ -13,5 +24,14 @@
     .mc-col {
         width: calc(90% / 4);
     }
+
+    .mc-title {
+        font-size: 0.8rem;
+    }
+
+    .mc-author {
+        font-size: 0.7rem;
+    }
+
 
 }

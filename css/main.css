@@ -166,6 +166,11 @@ h2 {
 }
 
 /* Contenuto principale */
+.subtitle {
+    font-size: 0.9rem;
+    color: hsl(217, 3%, 45%);
+}
+
 .mc-row {
     display: flex;
     margin-top: 30px;
@@ -196,11 +201,6 @@ h2 {
 
 .mc-round {
     border-radius: 50%;
-}
-
-.subtitle {
-    font-size: 0.9rem;
-    color: hsl(217, 3%, 45%);
 }
 
 /* Player */
