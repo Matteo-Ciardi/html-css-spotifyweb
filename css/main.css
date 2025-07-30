@@ -28,6 +28,10 @@ h2 {
     margin-top: 40px;
 }
 
+.mc-col a {
+    color: #fff;
+}
+
 /* Contenuto pagina */
 .main-content {
     display: flex;
@@ -89,7 +93,7 @@ h2 {
 }
 
 .dl-profile {
-    margin-top: 230px;
+    margin-top: 220px;
 }
 
 .dl-icon {
@@ -270,13 +274,17 @@ h2 {
 }
 
 .control-panel i {
-    margin: 0 10px;
+    margin: 0 20px;
+    color: #fff;
 }
 
 .fa-play-border {
     border: 2px solid #fff;
     border-radius: 50%;
-    width: 30px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
 }
 
 .prog-bar-under {
@@ -295,16 +303,16 @@ h2 {
 
 /* Azioni utente */
 .user-action {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     width: 20%;
     /* DEBUG */
-    height: 100%;
     background-color: lightsteelblue;
 }
 
 .user-action i {
     margin: 0 5px;
+    color: #fff;
 }
 
 .vol-bar-under {
