@@ -40,6 +40,9 @@ h2 {
 
 /* Navbar sinistra */
 .left-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: auto;
     padding: 20px 20px 10px;
     flex-shrink: 0;
@@ -108,7 +111,6 @@ h2 {
 }
 
 .dl-profile {
-    margin-top: 220px;
     position: sticky;
     bottom: 0;
 }
