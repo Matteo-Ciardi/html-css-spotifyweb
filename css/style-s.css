@@ -11,5 +11,21 @@
         font-size: 0.8rem;
     }
 
+    /* In riproduzione */
+    .now-playing {
+        width: 33%;
+    }
+
+    /* Control panel */
+    .control-panel i {
+        margin: 0 5px;
+    }
+
+    /* Azioni utente */
+    .user-action {
+        width: 33%;
+    }
+
+
 
 }
