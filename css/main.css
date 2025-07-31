@@ -298,6 +298,7 @@ h2 {
     line-height: 1.5rem;
 }
 
+
 .prog-bar-under {
     position: relative;
     width: 50%;
@@ -310,6 +311,20 @@ h2 {
     left: 0;
     width: 20%;
     border-bottom: 3px solid hsl(0, 0%, 76%);
+}
+
+.timer-before {
+    position: absolute;
+    bottom: 8px;
+    left: 620px;
+    font-size: 0.8rem;
+}
+
+.timer-after {
+    position: absolute;
+    bottom: 8px;
+    left: 1265px;
+    font-size: 0.8rem;
 }
 
 /* Azioni utente */
