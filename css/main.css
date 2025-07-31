@@ -154,6 +154,7 @@ h2 {
     position: fixed;
     top: 0;
     left: 230px;
+    z-index: 1000;
     height: 90px;
     width: calc(100% - 230px);
     background-color: rgb(0, 0, 0, 0.5);
@@ -218,10 +219,24 @@ h2 {
 
 .mc-col {
     width: calc(95% / 6);
+    position: relative;
 }
 
-.mc-img-box:hover {
+.mc-col:hover .mc-img {
     opacity: 0.5;
+}
+
+.fa-hover {
+    position: absolute;
+    font-size: 4rem;
+    translate: -100%;
+    right: 7.5px;
+    top: 24%;
+    display: none;
+}
+
+.mc-col:hover .fa-hover {
+    display: block;
 }
 
 .mc-img {
