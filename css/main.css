@@ -49,10 +49,6 @@ h2 {
     font-size: 0.7rem;
 }
 
-.list-scroll {
-    overflow: auto;
-    max-height: 200px;
-}
 
 .left-navbar a {
     color: hsl(0, 0%, 100%);
@@ -91,6 +87,12 @@ h2 {
     vertical-align: middle;
 }
 
+.list-scroll {
+    overflow: auto;
+    max-height: 200px;
+    position: relative;
+}
+
 .fa-plus-bg {
     background-color: hsl(0, 0%, 64%);
     padding: 10px;
@@ -100,6 +102,8 @@ h2 {
 
 .dl-profile {
     margin-top: 220px;
+    position: sticky;
+    bottom: 0;
 }
 
 .dl-icon {
@@ -228,7 +232,7 @@ h2 {
     height: 90px;
     width: 100%;
     background-color: hsl(0, 0%, 16%);
-    padding: 20px 15px;
+    padding: 20px 20px;
 }
 
 /* In riproduzione */
@@ -274,9 +278,6 @@ h2 {
 .control-panel {
     font-size: 1.2rem;
     width: 60%;
-    /* DEBUG */
-    /* height: 100%; */
-    /* background-color: lightpink; */
 }
 
 .cp-icon {
@@ -284,17 +285,17 @@ h2 {
 }
 
 .control-panel i {
-    margin: 0 20px;
+    margin: 0 15px;
     color: #fff;
 }
 
 .fa-play-border {
     border: 2px solid #fff;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 1.7rem;
+    height: 1.7rem;
     text-align: center;
-    line-height: 35px;
+    line-height: 1.5rem;
 }
 
 .prog-bar-under {
@@ -313,11 +314,12 @@ h2 {
 
 /* Azioni utente */
 .user-action {
-    /* display: flex; */
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 20%;
     /* DEBUG */
-    background-color: lightsteelblue;
+    /* background-color: lightsteelblue; */
 }
 
 .user-action i {
@@ -327,7 +329,7 @@ h2 {
 
 .vol-bar-under {
     position: relative;
-    width: 40%;
+    width: 150px;
     margin: 17px auto;
     border-bottom: 3px solid hsl(0, 0%, 35%);
 }
