@@ -140,8 +140,6 @@ h2 {
 .main-window {
     overflow: auto;
     width: 100%;
-    /* DEBUG */
-    height: 100%;
     background-color: hsl(219, 26%, 11%);
 }
 
@@ -219,6 +217,9 @@ h2 {
 
 .mc-col {
     width: calc(95% / 6);
+}
+
+.mc-img-box {
     position: relative;
 }
 
@@ -228,11 +229,9 @@ h2 {
 
 .fa-hover {
     position: absolute;
-    font-size: 4rem;
-    translate: -100%;
-    right: 7.5px;
-    top: 24%;
     display: none;
+    transform: translate(110%, -220%);
+    font-size: 4rem;
 }
 
 .mc-col:hover .fa-hover {
@@ -316,9 +315,10 @@ h2 {
     margin-left: 10px;
 }
 
-.heart:hover, .folder:hover {
+.heart:hover,
+.folder:hover {
     color: white;
-} 
+}
 
 /* Pannello di controllo */
 .control-panel {
