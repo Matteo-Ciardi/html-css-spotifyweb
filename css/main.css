@@ -303,6 +303,10 @@ h2 {
     color: hsl(0, 0%, 47%);
 }
 
+#author:hover {
+    color: white;
+}
+
 .save-song a {
     color: hsl(0, 0%, 47%);
     text-decoration: none;
@@ -311,6 +315,10 @@ h2 {
 .folder {
     margin-left: 10px;
 }
+
+.heart:hover, .folder:hover {
+    color: white;
+} 
 
 /* Pannello di controllo */
 .control-panel {
@@ -327,6 +335,10 @@ h2 {
     color: #fff;
 }
 
+.fa-play-hover:hover {
+    font-size: 1.5rem;
+}
+
 .prog-bar-under {
     position: relative;
     width: 50%;
@@ -337,20 +349,39 @@ h2 {
 .prog-bar-top {
     position: absolute;
     left: 0;
-    width: 20%;
+    width: 100px;
     border-bottom: 3px solid hsl(0, 0%, 76%);
+}
+
+.prog-bar-under:hover .prog-bar-top {
+    border-bottom-color: green;
+}
+
+.dot-prog-bar {
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    transform: translate(0, -50%);
+    left: 93px;
+    display: none;
+}
+
+.prog-bar-under:hover .dot-prog-bar {
+    display: block;
 }
 
 .timer-before {
     position: absolute;
-    bottom: 8px;
+    bottom: 12px;
     left: 620px;
     font-size: 0.8rem;
 }
 
 .timer-after {
     position: absolute;
-    bottom: 8px;
+    bottom: 12px;
     left: 1265px;
     font-size: 0.8rem;
 }
@@ -378,6 +409,25 @@ h2 {
 .vol-bar-top {
     position: absolute;
     left: 0;
-    width: 30%;
+    width: 50px;
     border-bottom: 3px solid hsl(0, 0%, 76%);
+}
+
+.vol-bar-under:hover .vol-bar-top {
+    border-bottom-color: green;
+}
+
+.dot-vol-bar {
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    transform: translate(0, -50%);
+    left: 40px;
+    display: none;
+}
+
+.vol-bar-under:hover .dot-vol-bar {
+    display: block;
 }
