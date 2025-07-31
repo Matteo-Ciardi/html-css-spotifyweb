@@ -49,9 +49,12 @@ h2 {
     font-size: 0.7rem;
 }
 
-
 .left-navbar a {
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 47%);
+}
+
+.left-navbar a:hover {
+    color: white;
 }
 
 #logo {
@@ -80,6 +83,10 @@ h2 {
 .ln-icon {
     width: 35px;
     vertical-align: middle;
+}
+
+#home {
+    color: white;
 }
 
 .left-navbar span {
@@ -125,6 +132,10 @@ h2 {
     width: 30px;
 }
 
+#pr-name {
+    color: white;
+}
+
 /* Sezione finestra principale */
 .main-window {
     overflow: auto;
@@ -157,6 +168,10 @@ h2 {
     text-decoration: none;
 }
 
+#cta-btn:hover {
+    padding: 20px 45px;
+}
+
 /* Container */
 .container {
     padding: 30px;
@@ -185,6 +200,10 @@ h2 {
     color: hsl(217, 3%, 45%);
 }
 
+.navbar-ul a:hover {
+    color: white;
+}
+
 /* Contenuto principale */
 .subtitle {
     font-size: 0.9rem;
@@ -199,6 +218,10 @@ h2 {
 
 .mc-col {
     width: calc(95% / 6);
+}
+
+.mc-img-box:hover {
+    opacity: 0.5;
 }
 
 .mc-img {
@@ -289,16 +312,6 @@ h2 {
     color: #fff;
 }
 
-.fa-play-border {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    width: 1.7rem;
-    height: 1.7rem;
-    text-align: center;
-    line-height: 1.5rem;
-}
-
-
 .prog-bar-under {
     position: relative;
     width: 50%;
@@ -331,10 +344,8 @@ h2 {
 .user-action {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 20%;
-    /* DEBUG */
-    /* background-color: lightsteelblue; */
 }
 
 .user-action i {
