@@ -16,6 +16,10 @@
         width: 33%;
     }
 
+    .title-author {
+        margin-right: 10px;
+    }
+
     .save-song {
         flex-direction: column;
         margin-left: 0px;
@@ -37,13 +41,4 @@
     .timer-after {
         font-size: 0.6rem;
     }
-
-
-    /* Azioni utente */
-    .user-action {
-        width: 33%;
-    }
-
-
-
 }

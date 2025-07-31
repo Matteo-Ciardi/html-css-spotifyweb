@@ -56,6 +56,10 @@
         margin-right: 0px;
     }
 
+    .save-song {
+        margin-right: 30px;
+    }
+
     /* Pannello di controllo */
     .timer-before {
         font-size: 0.5rem;
@@ -66,10 +70,6 @@
     }
 
     /* Azioni utente */
-    .user-action {
-        width: 30%;
-    }
-
     .user-action i {
         margin: 0 2px;
     }

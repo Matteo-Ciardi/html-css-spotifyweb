@@ -326,7 +326,8 @@ h2 {
 /* Pannello di controllo */
 .control-panel {
     font-size: 1.2rem;
-    width: 60%;
+    /* width: 60%; */
+    flex-grow: 5;
 }
 
 .cp-icon {
@@ -352,7 +353,7 @@ h2 {
 .prog-bar-top {
     position: absolute;
     left: 0;
-    min-width: 75px;
+    width: 100px;
     border-bottom: 3px solid hsl(0, 0%, 76%);
 }
 
@@ -397,11 +398,10 @@ h2 {
     align-items: center;
     justify-content: space-around;
     flex-grow: 1;
-    width: 20%;
 }
 
 .user-action i {
-    margin: 0 5px;
+    margin: 0 10px;
     color: #fff;
 }
 
