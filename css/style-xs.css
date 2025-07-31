@@ -42,10 +42,6 @@
         width: calc(100% - 50px);
     }
 
-    #cta-btn:hover {
-        padding: 15px 25px;
-    }
-
     /* Ascoltati di recente */
     .mc-col {
         width: calc(95% / 2);

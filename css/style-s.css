@@ -11,6 +11,10 @@
         font-size: 0.8rem;
     }
 
+    #cta-btn:hover {
+        padding: 15px 25px;
+    }
+
     /* In riproduzione */
     .now-playing {
         width: 33%;
