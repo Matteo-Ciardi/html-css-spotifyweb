@@ -344,7 +344,7 @@ h2 {
 
 .prog-bar-under {
     position: relative;
-    width: 50%;
+    max-width: 50%;
     margin: 17px auto;
     border-bottom: 3px solid hsl(0, 0%, 35%);
 }
@@ -352,7 +352,7 @@ h2 {
 .prog-bar-top {
     position: absolute;
     left: 0;
-    width: 100px;
+    min-width: 75px;
     border-bottom: 3px solid hsl(0, 0%, 76%);
 }
 
@@ -396,6 +396,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-grow: 1;
     width: 20%;
 }
 
@@ -404,9 +405,13 @@ h2 {
     color: #fff;
 }
 
+.ua-icon {
+    display: flex;
+}
+
 .vol-bar-under {
     position: relative;
-    width: 150px;
+    min-width: 100px;
     margin: 17px auto;
     border-bottom: 3px solid hsl(0, 0%, 35%);
 }
@@ -414,7 +419,7 @@ h2 {
 .vol-bar-top {
     position: absolute;
     left: 0;
-    width: 50px;
+    min-width: 50px;
     border-bottom: 3px solid hsl(0, 0%, 76%);
 }
 

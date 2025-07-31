@@ -16,10 +16,28 @@
         width: 33%;
     }
 
-    /* Control panel */
+    .save-song {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .heart {
+        margin-left: 10px;
+    }
+
+    /* Pannello di controllo */
     .control-panel i {
         margin: 0 5px;
     }
+
+    .timer-before {
+        font-size: 0.6rem;
+    }
+
+    .timer-after {
+        font-size: 0.6rem;
+    }
+
 
     /* Azioni utente */
     .user-action {

@@ -52,12 +52,12 @@
     }
 
     .vol-bar-under {
-        width: 75px;
+        min-width: 70px;
         margin-left: 10px;
     }
 
     .vol-bar-top {
-        width: 25px;
+        min-width: 20px;
     }
 
     .dot-vol-bar {
