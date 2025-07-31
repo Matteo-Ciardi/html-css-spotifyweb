@@ -11,11 +11,6 @@
         font-size: 0.7rem;
     }
 
-    .bottom-bar::after {
-        margin-left: 23px;
-    }
-
-
     /* Ascoltati di recente */
     .subtitle {
         font-size: 0.7rem;

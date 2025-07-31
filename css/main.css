@@ -189,9 +189,8 @@ h2 {
     content: "";
     border: 2px solid green;
     display: block;
-    width: 50px;
-    margin-left: 28px;
-    margin-top: 2px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .navbar-ul a {
@@ -338,7 +337,8 @@ h2 {
 }
 
 .fa-play-hover:hover {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    transform: scale(1.5);
 }
 
 .prog-bar-under {

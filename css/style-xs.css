@@ -1,5 +1,6 @@
 @media screen and (max-width: 552px) {
 
+    /* Navbar sinistra */
     .left-navbar {
         overflow: unset;
         display: flex;
@@ -41,8 +42,26 @@
         width: calc(100% - 50px);
     }
 
+    #cta-btn:hover {
+        padding: 15px 25px;
+    }
+
     /* Ascoltati di recente */
     .mc-col {
         width: calc(95% / 2);
+    }
+
+    /* In riproduzione */
+    .title-author {
+        margin-right: 0px;
+    }
+
+    /* Azioni utente */
+    .user-action {
+        width: 30%;
+    }
+
+    .user-action i {
+        margin: 0 2px;
     }
 }
