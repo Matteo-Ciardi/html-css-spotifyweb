@@ -339,7 +339,6 @@ h2 {
 }
 
 .fa-play-hover:hover {
-    /* font-size: 1.5rem; */
     transform: scale(1.5);
 }
 
@@ -378,16 +377,18 @@ h2 {
 
 .timer-before {
     position: absolute;
-    bottom: 12px;
-    left: 620px;
+    transform: translate(0, -50%);
+    left: -40px;
     font-size: 0.8rem;
+    color: white;
 }
 
 .timer-after {
     position: absolute;
-    bottom: 12px;
-    left: 1265px;
+    transform: translate(0, -50%);
+    right: -40px;
     font-size: 0.8rem;
+    color: white;
 }
 
 /* Azioni utente */
